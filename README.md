@@ -21,6 +21,7 @@ This GNOME Shell extension allows users to toggle grayscale for individual windo
    ```
    make install
    ```
+4. Restart GNOME Shell (press `Alt-F2`, type `r`, and press `Enter`).
 
 ## Usage
 

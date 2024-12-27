@@ -37,6 +37,26 @@ var PreferencesWidget = GObject.registerClass(
                 this._setSetting("global_grayscale", toggleGlobal.get_active());
             });
             this.append(toggleGlobal);
+
+            const intensityLabel = new Gtk.Label({
+                label: "Grayscale Intensity",
+                use_markup: true,
+            });
+            this.append(intensityLabel);
+
+            const intensityScale = new Gtk.Scale({
+                orientation: Gtk.Orientation.HORIZONTAL,
+                adjustment: new Gtk.Adjustment({
+                    lower: 0,
+                    upper: 100,
+                    step_increment: 1,
+                }),
+            });
+            intensityScale.set_value(this._getSetting("grayscale_intensity"));
+            intensityScale.connect("value-changed", () => {
+                this._setSetting("grayscale_intensity", intensityScale.get_value());
+            });
+            this.append(intensityScale);
         }
 
         _getSetting(key) {

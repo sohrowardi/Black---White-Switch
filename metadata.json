@@ -2,15 +2,16 @@
   "uuid": "grayscale-windows@yourdomain.com",
   "name": "Grayscale Windows",
   "description": "Allows users to toggle grayscale for individual windows or the entire workspace in GNOME Shell.",
-  "version": 1.0,
+  "version": 1.1,
   "shell-version": [
     "3.36",
     "3.38",
     "40",
     "41",
-    "42"
+    "42",
+    "43"
   ],
-  "url": "https://github.com/yourusername/gnome-shell-extension-grayscale",
+  "url": "https://github.com/sohrowardi/Black-And-White-Switch",
   "license": "GPL-3.0-or-later",
   "settings-schema": "org.gnome.shell.extensions.grayscale"
 }

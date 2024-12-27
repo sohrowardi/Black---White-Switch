@@ -58,5 +58,6 @@ function enable() {
 }
 
 function disable() {
-    // Cleanup logic here
+    Main.wm.removeKeybinding('toggle-active-window-grayscale');
+    Main.wm.removeKeybinding('toggle-global-grayscale');
 }

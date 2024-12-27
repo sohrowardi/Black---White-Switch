@@ -35,3 +35,13 @@ body {
 .preference-window button:hover {
     background-color: #005fa3;
 }
+
+.preference-window .intensity-label {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.preference-window .intensity-scale {
+    width: 100%;
+    margin-top: 10px;
+}
