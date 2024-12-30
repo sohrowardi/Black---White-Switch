@@ -1,4 +1,4 @@
-# Black & White Switch
+# Black & White Toggle
 
 This GNOME Shell extension allows users to toggle grayscale for individual windows or the entire workspace on a Linux device.
 
@@ -11,11 +11,11 @@ This GNOME Shell extension allows users to toggle grayscale for individual windo
 
 1. Clone the repository:
    ```
-   git clone https://github.com/sohrowardi/gnome-shell-extension-grayscale.git
+   git clone https://github.com/sohrowardi/gnome-shell-extension-black-and-white-toggle.git
    ```
 2. Navigate to the extension directory:
    ```
-   cd gnome-shell-extension-grayscale
+   cd gnome-shell-extension-black-and-white-toggle
    ```
 3. Install the extension:
    ```
